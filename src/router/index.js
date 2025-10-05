@@ -21,7 +21,7 @@ const router = createRouter({
       component: NewsPage
     },
     {
-      path: "/our-work",
+      path: "/work",
       component: OurWorkPage
     },
      {

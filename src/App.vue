@@ -1,17 +1,17 @@
 <template>
-  <CommonHeader />
+  <MainNavigation />
   <div class="page">
     <router-view />
   </div>
 </template>
 
 <script>
-import CommonHeader from "@components/CommonHeader.vue";
+import MainNavigation from "@/components/MainNavigation.vue";
 
 export default {
   name: "App",
   components: {
-    CommonHeader,
+    MainNavigation,
   },
 };
 </script>

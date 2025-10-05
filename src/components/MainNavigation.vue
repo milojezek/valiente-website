@@ -5,11 +5,11 @@
       <a href="/">ValienteProject Studio</a>
     </div>
     <nav>
-      <a href="/">Domů</a>
-      <a href="/about">O nás</a>
-      <a href="#about">Novinky</a>
-      <a href="#about">Naše práce</a>
-      <a href="#about">Kontakty</a>
+      <router-link to="/">Domů</router-link>
+      <router-link to="/about">O nás</router-link>
+      <router-link to="/news">Novinky</router-link>
+      <router-link to="/work">Naše práce</router-link>
+      <router-link to="/contact">Kontakty</router-link>
     </nav>
   </header>
 </template>
@@ -18,7 +18,7 @@
 import valiente_logo from "@assets/logo/valiente_logo.png";
 
 export default {
-  name: "CommonHeader",
+  name: "MainNavigation",
   data: function () {
     return {
       valiente_logo: valiente_logo,
