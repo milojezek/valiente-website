@@ -2,7 +2,7 @@
   <header>
     <div class="logo-container">
       <img :src="valiente_logo" />
-      <a href="/">ValienteProject Studio</a>
+      <router-link href="/">ValienteProject Studio</router-link>
     </div>
     <nav>
       <router-link to="/">Domů</router-link>
