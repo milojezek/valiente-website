@@ -47,7 +47,7 @@ header {
 }
 
 .logo-container {
-  height: 100px;
+  height: 50px;
   display: flex;
   flex-direction: row;
   align-items: center;
